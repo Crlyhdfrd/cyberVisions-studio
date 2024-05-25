@@ -1,0 +1,36 @@
+.PortSection {
+  padding: 7%;
+  .PortContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 50px;
+    .PortItem {
+      flex: 0 0 30%;
+      .PortImageContainer {
+        width: 100%;
+        aspect-ratio: 5/4;
+        overflow: hidden;
+        .PortImage {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 8px;
+        }
+      }
+      .PortIcons{
+        .PortIcon{
+          position: relative;
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          svg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}
