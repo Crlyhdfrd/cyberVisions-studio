@@ -1,0 +1,29 @@
+.headerSection {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #444444;
+    // > * {
+    //     text-transform: uppercase;
+    //   } apply to all children elements
+    .branding {
+      font-size: 25px;
+    }
+    .headerNav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      column-gap: 20px;
+      
+      .navItem {
+        font-size: 20px;
+        &:hover {
+          color: #535bf2;
+        }
+      }
+    }
+}
+
