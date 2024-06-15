@@ -6,11 +6,13 @@
     align-items: center;
     padding: 0 20px;
     background-color: #444444;
+    font-family: cursive;
+    color: rgb(165, 151, 190);
     // > * {
     //     text-transform: uppercase;
     //   } apply to all children elements
     .branding {
-      font-size: 25px;
+      font-size: 30px;
     }
     .headerNav {
       display: flex;
@@ -18,12 +20,14 @@
       justify-content: space-between;
       column-gap: 20px;
       
+      
       .navItem {
-        font-size: 20px;
+        font-size: 30px;
+        color: rgb(165, 151, 190);
         &:hover {
           color: #535bf2;
         }
       }
     }
-}
+  }
 

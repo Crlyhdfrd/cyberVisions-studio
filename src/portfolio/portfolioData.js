@@ -3,7 +3,7 @@ const portfolioData = [
     title: "project 1",
     subtitle:
       "lorem ipsum dolar sit amet consectetur jack something of another just neeed some text",
-    image: "https://picsum.photos/400/300",
+    image: "/images/sunset-4086848_1920.jpg",
     github: "https://github.com/Crlyhdfrd",
     live: "https://www.google.com/",
   },

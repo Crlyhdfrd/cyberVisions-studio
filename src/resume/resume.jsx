@@ -4,37 +4,37 @@ function Resume() {
   return (
     <section className="ResSection">
       <h2 className="ResHeader">Resume</h2>
-      <button className="Download">Download</button>
       <div className="ResContainer">
-        <p className="ResSummary">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <div className="ResSummaryContainer">
+          <p className="ResSummary">
+            I am a full stack web developer with a background in customer service. I have a passion for problem solving and a love for learning new technologies. I am a quick learner and a team player. I am looking for a position where I can use my skills to create innovative and user-friendly applications. I am proficient in HTML, CSS, Javascript, and React. I have experience with Node.js, Express, MySQL, MongoDB, and RESTful APIs. I have a strong understanding of responsive design and accessibility. I am a creative thinker and a detail-oriented developer. I am excited to bring my skills to a team that values collaboration and creativity. I am eager to grow as a developer and to contribute to projects that make a positive impact. I am looking forward to working with a team that is passionate about creating high-quality applications, dedicated to creating innovative and user-friendly applications, values creativity and collaboration. 
+          </p>
+          <button className="Download">Download</button>
+        </div>
         <div className="ResSkills">
           <h3>Skills</h3>
-          <ul>
+          <ul id="Skills">
             <li>Customer Service</li>
             <li>Communication</li>
             <li>Independent Working</li>
             <li>Problem Solving</li>
             <li>Time Management</li>
             <li>Teamwork</li>
+            <li>Adaptability</li>
+            <li>Attention to Detail</li>
+            <li>Organization</li>
           </ul>
           <h3>Languages</h3>
-          <ul>
+          <ul id="Languages">
             <li>Javascript</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>PHP</li>
             <li>SQL</li>
+            <li>Python</li>
           </ul>
           <h3>Frameworks & Libraries</h3>
-          <ul>
+          <ul id="FL">
             <li>React</li>
             <li>Node.js</li>
             <li>Express</li>
@@ -47,7 +47,7 @@ function Resume() {
             <li>Fetch</li>
           </ul>
           <h3>Other Technologies</h3>
-          <ul>
+          <ul id="Other">
             <li>Git</li>
             <li>GitHub</li>
             <li>Heroku</li>
@@ -62,3 +62,5 @@ function Resume() {
     </section>
   );
 }
+
+export default Resume;

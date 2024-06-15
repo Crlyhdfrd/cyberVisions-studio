@@ -1,0 +1,58 @@
+.ResSection{
+  padding: 10%;
+  .ResHeader {
+    text-align: center;
+  }
+  .Download {
+    background-color: transparent;
+    border: 2px solid purple;
+    color: purple;
+  }
+  .ResContainer {
+    .ResSummaryContainer {
+      font-family: cursive;
+      font-size: 1.2rem;
+    }
+    display: flex;
+    column-gap: 50px;
+    > div {
+      flex: 0 0 50%;
+    }
+    .ResSkills {
+      h3 {
+        margin-bottom: 0;
+        margin-top: 25px;
+      }
+      ul{
+        list-style: none;
+        padding-left: 0;
+        margin-top: 0;
+        &#Skills li {
+          background-color: red;
+        }
+         &#Languages li {
+          background-color: pink;
+          color: black;
+        }
+         &#FL li {
+          background-color: blue;
+        }
+         &#Other li {
+          background-color: gray;
+        }
+        li {
+          display: inline-block;
+          margin: 5px 10px 5px 0;
+          padding: 5px 15px;
+          border-radius: 20px;
+          background-color: blue;
+          color: white;
+          font-weight: 700;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+
