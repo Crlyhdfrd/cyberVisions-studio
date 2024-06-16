@@ -2,7 +2,7 @@ import "./about.scss"
 
 function About() { 
   return (
-    <section className="aboutSection">
+    <section id="aboutSection" className="aboutSection">
       <div className="imageContainer">
         <img
           className="profileImage"

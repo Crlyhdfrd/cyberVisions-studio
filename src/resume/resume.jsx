@@ -2,7 +2,7 @@ import "./resume.scss";
 
 function Resume() {
   return (
-    <section className="ResSection">
+    <section id="resumeSection" className="ResSection">
       <h2 className="ResHeader">Resume</h2>
       <div className="ResContainer">
         <div className="ResSummaryContainer">

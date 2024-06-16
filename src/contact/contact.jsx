@@ -64,7 +64,7 @@ function Contact() {
   };
 
   return (
-    <section className="ContactSection">
+    <section id="contactSection" className="ContactSection">
       <form>
         <h2>Contact</h2>
         <label htmlFor="name">Name</label>

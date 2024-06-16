@@ -4,7 +4,7 @@ import Project from "./Project.jsx";
 
 function Portfolio() {
   return (
-    <section className="PortSection">
+    <section id="portfolioSection" className="PortSection">
       <h2 className="PortHeader">Portfolio</h2>
       <div className="PortContainer">
         {portfolioData.map((project, index) => (
