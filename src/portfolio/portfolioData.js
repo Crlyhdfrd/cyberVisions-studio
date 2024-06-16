@@ -3,7 +3,7 @@ const portfolioData = [
     title: "LOTR Wiki",
     subtitle:
       "A Lord of the Rings wiki that allows you to search for characters, locations, and events from the Lord of the Rings series. It also allows you to view information about the characters, locations, and events.",
-    image: "public/images/frodo landing ring.gif",
+    image: "public/images/output-onlinegiftools (2).png",
     github: "https://github.com/Crlyhdfrd",
     live: "https://memiscavage.github.io/LOTR-wiki/#gsc.tab=0",
   },
