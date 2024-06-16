@@ -2,12 +2,22 @@
   padding: 10%;
   .ResHeader {
     text-align: center;
+    font-family: cursive;
+    font-size: 4.2rem;
   }
   .Download {
     background-color: transparent;
     border: 2px solid purple;
     color: purple;
+    border-radius: 30px;
+    cursor: pointer;
   }
+
+  .Download:hover {
+    background-color: rgb(203, 174, 30);
+    color: black;
+  }
+  
   .ResContainer {
     .ResSummaryContainer {
       font-family: cursive;
@@ -28,17 +38,18 @@
         padding-left: 0;
         margin-top: 0;
         &#Skills li {
-          background-color: red;
+          background-color: rgb(226, 192, 26);
+          // color: black;
         }
          &#Languages li {
           background-color: pink;
-          color: black;
+          // color: black;
         }
          &#FL li {
-          background-color: blue;
+          background-color: rgb(59, 162, 236);
         }
          &#Other li {
-          background-color: gray;
+          background-color: rgb(187,154,224);
         }
         li {
           display: inline-block;

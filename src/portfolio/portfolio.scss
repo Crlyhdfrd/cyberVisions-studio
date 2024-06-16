@@ -1,5 +1,10 @@
 .PortSection {
   padding: 7%;
+  font-family: cursive;
+  .PortHeader {
+    text-align: center;
+    font-size: 4.2rem;
+  }
   .PortContainer {
     display: flex;
     flex-wrap: wrap;
